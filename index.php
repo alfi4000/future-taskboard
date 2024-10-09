@@ -282,14 +282,14 @@ $tasks = $conn->query("SELECT * FROM tasks");
 </head>
 <body>
     <div class="task-board">
-        <h1 class="title">FLUG PREISE</h1>
+        <h1 class="title">Taskboard</h1>
         <!-- Add Task Form -->
         <form action="index.php" method="post" enctype="multipart/form-data">
             <div class="task-input">
-                <input type="text" name="title" placeholder="Fluggeselschaft" required>
-                <textarea name="description" placeholder="Flug Beschreibung (10 linien maximal)" rows="10"></textarea>
+                <input type="text" name="title" placeholder="Titel" required>
+                <textarea name="description" placeholder="Description (10 linien maximal)" rows="10"></textarea>
                 <input type="file" name="images[]" multiple>
-                <button type="submit" name="add_task">Flug Hinzufügen</button>
+                <button type="submit" name="add_task">Add Task</button>
             </div>
         </form>
 
