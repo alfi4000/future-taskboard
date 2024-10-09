@@ -1,9 +1,9 @@
 <?php
 // Connect to MariaDB
 $host = 'localhost';
-$user = 'view-server';
-$pass = 'q8Jc5xUrGE0m9Rh';
-$db = 'task_board_2';
+$user = 'test';
+$pass = 'test';
+$db = 'task_board';
 $conn = new mysqli($host, $user, $pass, $db);
 
 // Check for connection errors
